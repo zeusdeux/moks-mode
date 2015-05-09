@@ -25,3 +25,7 @@
     electric-indent-mode
     (lambda () (setq indent-line-function 'js-indent-line)))
   "A mode for moks files")
+
+;; figure out how to add moks keywords to ac-sources.
+;; this seems to error out: http://auto-complete.org/doc/manual.html#extend
+;; checkout how js2-mode does it
