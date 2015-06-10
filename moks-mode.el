@@ -17,7 +17,8 @@
     ("!=" . 'font-lock-builtin-face)
     ("!" . 'font-lock-builtin-face)
     ("(" . 'font-lock-builtin-face)
-    (")" . 'font-lock-builtin-face))
+    (")" . 'font-lock-builtin-face)
+    (":" . 'font-lock-builtin-face))
   '("\\.mok$")
   '(auto-complete-mode
     rainbow-delimiters-mode
