@@ -3,7 +3,7 @@
 
 (define-generic-mode 'moks-mode
   '("//")
-  '("let" "if" "export" "import" "default")
+  '("let" "import" "nil")
   '(("=" . 'font-lock-builtin-face)
     ("+" . 'font-lock-builtin-face)
     ("-" . 'font-lock-builtin-face)
